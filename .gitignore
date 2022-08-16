@@ -1,0 +1,11 @@
+.env
+node_modules
+
+#production
+/build
+
+#Hardhat
+cache
+artifacts
+
+/src/Marketplace.json
