@@ -1,3 +1,5 @@
+**To view the NFTs we need to connect to the blockchain. Need a wallet like MetaMask to access blockchain.**
+
 Wrote the smartcontract for minting nfts. The deploy script is also written and when we deploy it in the chain, we get a Marketplace.json file which will have address and abi of the contract, through which we can access the contract later.
 
 I have deployed the contract already.
@@ -7,6 +9,8 @@ Functionalities are we can list our NFT under the marketplace and we can also bu
 Wrote seperate js files for seperate components under src/components.
 
 1. Marketplace lists all the NFTs
+![Screenshot (305)](https://user-images.githubusercontent.com/96336717/187281336-547df9dd-8a7c-41b1-bf51-68584c3410e2.png)
+
 2. NavBar is used to navigate to different pages and also has a connect button to connect to metamask.
 3. NFT page is the page we get when we click on a NFT, and then we can see the details of the NFT there and can also buy it.
 4. NFT tile is nothing but the tile shown in the marketplace page.
